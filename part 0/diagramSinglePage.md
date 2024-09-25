@@ -11,10 +11,4 @@
     deactivate server
 
     Note left of server: The server responds with the code 201: created.
-
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
-    activate server
-    server-->>browser: HTML document
-    deactivate server
-
 ```
